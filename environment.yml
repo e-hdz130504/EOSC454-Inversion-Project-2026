@@ -21,11 +21,10 @@ dependencies:
   - jupyter
   - ipywidgets
 
-  # Utilities
-  - pathlib  # usually built-in, but safe
+  # Other
+  - pathlib  
   - utm
 
-  # Optional / tricky packages
   - pip
   - pip:
       - mtpy-v2
