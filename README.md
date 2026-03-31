@@ -11,4 +11,4 @@ The dataset that will be used throughout this project will be the McArthur River
 
 Geological parameters used in the seen code are referenced from Tuncer, 2007. This projects inversion results will also be compared to Tuncer's data. (https://sites.ualberta.ca/~unsworth/theses/Tuncer_EXTECH_MSc_2007_10MB.pdf)
 
-Everything needed to run the notebooks is in the repository itself (environment file), including the data --> Clone the repository then open a terminal, run: 'conda env create -f environment.yml', run the printed instructions in the terminal, then type in 'jupyter notebook'. This should take you to an environemnt. The first document you should run is FDEM_example.ipynb.
+Everything needed to run the notebooks is in the repository itself (environment file), including the data --> Clone the repository then open a terminal, run: 'conda env create -f environment.yml', run the printed instructions in the terminal, then type in 'jupyter notebook'. This should take you to an environment. The first document you should run is FDEM_example.ipynb.
