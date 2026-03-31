@@ -1,0 +1,31 @@
+name: eosc-454-project
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+
+  # Basic numerical, data analysis and plotting
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+
+  # SimPEG/Scientific
+  - simpeg
+  - discretize
+  - pymatsolver
+
+  # Notebook
+  - jupyter
+  - ipywidgets
+
+  # Utilities
+  - pathlib  # usually built-in, but safe
+  - utm
+
+  # Optional / tricky packages
+  - pip
+  - pip:
+      - mtpy
