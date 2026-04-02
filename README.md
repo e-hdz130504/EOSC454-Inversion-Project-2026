@@ -15,7 +15,12 @@ Geological parameters used in the seen code are referenced from Tuncer, 2007. Th
 
 
 ## Installation Instructions:
-Everything needed to run the notebooks is in the repository itself (environment file), including the data --> Clone the repository then open a terminal, run: 'conda env create -f environment.yml', run the printed instructions in the terminal, then type in 'jupyter notebook'. This should take you to an environment. The first document you should run is FDEM_example.ipynb.
+Everything needed to run the notebooks is in the repository itself (environment file), including the data. The steps you should follow are:
+
+1. Clone the repository then open a terminal, run: 'conda env create -f environment.yml'
+2. Run the printed instructions in the terminal
+3. Type in 'jupyter notebook'
+4. This should take you to an environment! The first document you should run is FDEM_example.ipynb
 
 ## Files:
 - 304: Geosystem Canada Inc. - Cameco McArthur River Mine line 304 Dataset
