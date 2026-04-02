@@ -16,7 +16,7 @@ dependencies:
   - simpeg
   - discretize
   - pymatsolver
-  - mumps
+  - python-mumps
 
   # Notebook
   - jupyter
