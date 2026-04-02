@@ -16,3 +16,11 @@ Geological parameters used in the seen code are referenced from Tuncer, 2007. Th
 
 ## Installation Instructions:
 Everything needed to run the notebooks is in the repository itself (environment file), including the data --> Clone the repository then open a terminal, run: 'conda env create -f environment.yml', run the printed instructions in the terminal, then type in 'jupyter notebook'. This should take you to an environment. The first document you should run is FDEM_example.ipynb.
+
+## Files:
+- 304: Geosystem Canada Inc. - Cameco McArthur River Mine line 304 Dataset
+- FDEM_example.ipynb: Main Forward Modelling Notebook
+- Geological_Figures.png: Figures obtained from Tuncer, 2017 used for property definitions
+- environment.yml: Environment YAML file with all libraries needed to run main notebook
+- inversion_1d.py: Offical SimPEG pyhton script with minor change for functionality of NSEM (PointNatural Source --> Impedance in Sources)
+- mt.py: Offical SimPEG pyhton script with minor change for functionality of NSEM (PointNatural Source --> Impedance in Sources)
