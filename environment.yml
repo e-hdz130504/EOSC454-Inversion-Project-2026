@@ -16,6 +16,7 @@ dependencies:
   - simpeg
   - discretize
   - pymatsolver
+  - mumps
 
   # Notebook
   - jupyter
@@ -24,7 +25,4 @@ dependencies:
   # Other
   - pathlib  
   - utm
-
-  - pip
-  - pip:
-      - mtpy-v2
+  - mtpy-v2
