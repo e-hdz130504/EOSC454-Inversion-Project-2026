@@ -27,5 +27,3 @@ Everything needed to run the notebooks is in the repository itself (environment 
 - Forward_and_TestInversion.ipynb: Main Forward Modelling Notebook + Test Inversion
 - Geological_Figures.png: Figures obtained from Tuncer, 2017 used for property definitions
 - environment.yml: Environment YAML file with all libraries needed to run main notebook
-- inversion_1d.py: Offical SimPEG pyhton script with minor change for functionality of NSEM (PointNatural Source --> Impedance in Sources)
-- mt.py: Offical SimPEG pyhton script with minor change for functionality of NSEM (PointNatural Source --> Impedance in Sources)
