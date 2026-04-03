@@ -4,7 +4,6 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.11
 
   - python=3.11
   - choclo>=0.3.0
