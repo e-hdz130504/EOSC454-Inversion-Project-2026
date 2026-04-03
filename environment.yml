@@ -13,7 +13,7 @@ dependencies:
   - matplotlib
 
   # SimPEG/Scientific
-  - simpeg
+  - simpeg=0.25.0
   - discretize
   - pymatsolver
   - python-mumps
