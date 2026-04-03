@@ -25,3 +25,4 @@ dependencies:
   # Other
   - pathlib  
   - utm
+  - mtpy-v2
