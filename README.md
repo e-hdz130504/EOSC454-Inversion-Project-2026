@@ -6,10 +6,10 @@ Researched Topic:
 “How can inverted 1-D soundings from audio-magnetotelluric (AMT) data be used to create pseudo-2D resistivity sections to accurately characterize resistive structures associated with unconformity type uranium deposits, and what are their limitations when compared to a 2-D inverted resistivity model”
 
 ## Goals:
-The main goals are to produce a forward model and invert the synthetic data to create a pseudo-2D inversion through the stitching/joining of multiple 1-D soundings. Upon creating a trustworthy inversion and stitching workflow, we will then do an inversion using the Cameco data at the McArthur River Mine to identify and characterize possible unconformity type uranium deposits in the region, and comment on the methods possible limitations.
+The main goals are to produce a forward model and invert the synthetic data to create a pseudo-2D inversion through the stitching/joining of multiple 1-D soundings. Extendable goals are: upon creating a trustworthy inversion and stitching workflow, we will then do an inversion using the Cameco data at the McArthur River Mine to identify and characterize possible unconformity type uranium deposits in the region, and comment on the methods possible limitations.
 
 ## Data/General Info:
-The dataset that will be used throughout this project will be the McArthur River Mine, Saskatchewan data acquired in July-August 2002 by Geosystem Canada Inc. for Cameco Corporation. 
+The non-synthetic dataset that will be used will be the McArthur River Mine, Saskatchewan data acquired in July-August 2002 by Geosystem Canada Inc. for Cameco Corporation. 
 
 Geological parameters used in the seen code are referenced from Tuncer, 2007. This projects inversion results will also be compared to Tuncer's data. (https://sites.ualberta.ca/~unsworth/theses/Tuncer_EXTECH_MSc_2007_10MB.pdf)
 
@@ -24,7 +24,9 @@ Everything needed to run the notebooks is in the repository itself (environment 
 
 ## Files:
 - 304: Geosystem Canada Inc. - Cameco McArthur River Mine line 304 Dataset
-- Forward_and_TestInversion.ipynb: Main Forward Modelling Notebook + Test Inversion
+- Forward_Data: Forward Model ore body and non-ore body Impedance Tensor Data
+- 1D_AMT_ForwardModel.ipynb: Main Forward Modelling Notebook for ore body and non-ore body imedance tensors
+- 1D_AMT_Inversion.ipynb: Main Inversion notebook with ore body and non-ore body inversions + 2D interpolated section
 - Geological_Figures.png: Figures obtained from Tuncer, 2017 used for property definitions
 - environment.yml: Environment YAML file with all libraries needed to run main notebook
 
